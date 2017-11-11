@@ -34,3 +34,10 @@ sudo bash ./install-percona.sh 2>&1 |tee percona-install.log
 wget https://raw.githubusercontent.com/odenktools/bash-scripts/master/install-playframework.sh
 sudo bash ./install-playframework.sh 2>&1 |tee playframework-install.log
 ```
+
+### Install Android SDK
+
+```bash
+wget https://raw.githubusercontent.com/odenktools/bash-scripts/master/install-android.sh
+sudo bash ./install-android.sh 2>&1 |tee android-install.log
+```
