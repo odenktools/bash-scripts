@@ -2,7 +2,7 @@
 
 sudo apt-get update
 sudo apt-get install -y python-software-properties software-properties-common
-sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository --yes ppa:webupd8team/java
 sudo apt-get -y -q update
 sudo apt-get -y -q install software-properties-common
 sudo apt-get -y -q install build-essential

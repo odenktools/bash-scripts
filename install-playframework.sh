@@ -10,7 +10,7 @@ echo "Downloading SBT..."
 wget http://dl.bintray.com/sbt/debian/sbt-$sbtVersion.deb
 sudo dpkg -i sbt-$sbtVersion.deb
 sudo apt-get update
-sudo apt-get install sbt
+sudo apt-get install unzip sbt
 rm sbt-$sbtVersion.deb
 echo "SBT done."
 # Use node as default JavaScript Engine
