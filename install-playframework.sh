@@ -10,11 +10,9 @@ echo "Downloading SBT..."
 wget http://dl.bintray.com/sbt/debian/sbt-$sbtVersion.deb
 sudo dpkg -i sbt-$sbtVersion.deb
 sudo apt-get update
-sudo apt-get install unzip sbt
+sudo apt-get -y install unzip sbt
 rm sbt-$sbtVersion.deb
 echo "SBT done."
-# Use node as default JavaScript Engine
-echo "export SBT_OPTS=\"\$SBT_OPTS -Dsbt.jse.engineType=Node\"" >> ~/.bashrc
 
 echo "Downloading Scala..."
 sudo apt-get -y install scala
