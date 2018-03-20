@@ -1,6 +1,6 @@
 # All In One Bash Installer For Debian Family
 
-### Install Postgres 9.3
+### Install Postgres 9.5
 
 ```bash
 wget https://raw.githubusercontent.com/odenktools/bash-scripts/master/install-postgres.sh
